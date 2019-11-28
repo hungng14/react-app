@@ -1,8 +1,8 @@
-import Login from './Login/Login';
-import Page404 from './Page404/Page404';
-import Page500 from './Page500/Page500';
-import Register from './Register/Register';
+import Login from './Login';
+import Page404 from './Page404';
+import Page from './page500';
+import Register from './Register';
 
 export {
-    Login, Page404, Page500, Register,
+    Login, Page404, Page as Page500, Register,
 };

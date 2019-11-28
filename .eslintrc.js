@@ -4,6 +4,7 @@ module.exports = {
         'eslint:recommended',
         'plugin:react/recommended'
     ],
+    "parser": "babel-eslint",
     'parserOptions': {
         'ecmaVersion': 8,
         'sourceType': 'module',
@@ -29,6 +30,9 @@ module.exports = {
         'max-len': ['error', { 'code': 140 }],
         'no-useless-constructor': 'off',
         'class-methods-use-this': 'off',
-        'max-classes-per-file': 'off'
+        'max-classes-per-file': 'off',
+        'react/no-unescaped-entities': 'off',
+        'react/prop-types': 'off',
+        'no-unused-vars': 'off'
     }
 };
